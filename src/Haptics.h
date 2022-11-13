@@ -8,6 +8,6 @@ class Haptics {
 
         Adafruit_DRV2605 drv;
 
-        uint8_t _sda = A1;
-        uint8_t _scl = A0;
+        uint8_t _sda = SDA;
+        uint8_t _scl = SCL;
 };

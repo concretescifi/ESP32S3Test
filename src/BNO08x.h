@@ -7,8 +7,8 @@ class BNO08x
         BNO08x();
         void printIMUData();
         
-        uint8_t _scl = A0;
-        uint8_t _sda = A1;
+        uint8_t _scl = SCL;
+        uint8_t _sda = SDA;
 
         BNO080 myIMU;
 };
